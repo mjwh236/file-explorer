@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';" -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self';"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>File Explorer</title>
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="pathContainer">
+      <button id="backButton">Back</button>
+      <p id="directoryPath">""</p>
+    </div>
+    <div id="quickLinksContainer">
+      <button id="documentsLink">Documents</button>
+      <button id="desktopLink">Desktop</button>
+      <button id="downloadsLink">Downloads</button>
+      <button id="homeLink">Home</button>
+    </div>
+    <div id="filesContainer"></div>
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "\"test\"",
+  "main": "src/main.js",
+  "author": "Michael White <mjwh236@uky.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.2.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}

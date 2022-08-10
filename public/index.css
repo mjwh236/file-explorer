@@ -1,0 +1,83 @@
+#filesContainerItem {
+    background-color: rgb(29, 215, 215);
+    padding: 5px;
+    display: flex;
+    margin: 10px;
+    transition: background-color 0.5s;
+    border-radius: 5px;
+}
+
+#filesContainerItem:hover {
+    cursor: pointer;
+    background-color: rgb(53, 104, 180);
+}
+
+#fileItem {
+    flex: 1
+}
+
+#filesContainer {
+    background-color: rgb(31, 79, 76);
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+#pathContainer{
+    display: flex;
+    align-items: center;
+}
+
+#directoryPath {
+    margin: 5px;
+}
+
+#directoryPath {
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#quickLinksContainer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background: palevioletred;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 6px;
+    border: 4px solid rgba(0,0,0,0);
+    background-color: rgb(10, 195, 195);
+    border-radius: 6px;
+    min-height: 32px;
+    margin: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(210, 120, 150);
+}
+
+button {
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+button:hover {
+    background-color: rgb(53, 104, 180);
+}
+
+body {
+    padding: 0;
+    border: black 50px;
+    background-color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+}
